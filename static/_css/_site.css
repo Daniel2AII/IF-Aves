@@ -1,0 +1,143 @@
+@viewport {
+    width: device-width;
+    zoom: 1;
+  }
+
+html{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    background-color: #505050   
+}
+
+.borda{
+    border: 15px  groove  #8B4513;
+    background-color: #6a9266;
+}
+
+#normal{
+    border: none;
+    background-color: #505050;
+}
+
+.div01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6%;
+    width: 100%;
+    height: 70px;
+    padding-bottom: 50px;   
+    padding-top: 2%;
+}
+
+.div02{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+.div04{
+    width: 20%;
+    padding-top: 6%;
+    display: flex;
+    position: relative;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    float:left;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.div05{
+    width: 20%;
+    padding-top: 6%;
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    float: right;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.conteiner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.ave{
+    width: 90%;
+    border: 15px  groove  #8B4513;
+    text-align: justify;
+    background-color: #6a9266;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 1%;
+}
+
+.div06{
+    float: left;
+    width: 50%;
+    min-width: 50%;
+    height: auto;
+    border: 4px  groove  #8B4513;
+    
+}
+
+.div07{
+    max-height: 327px;
+    display: flex;
+    align-items: center;
+}
+
+#inf{
+    width: 40%;
+}
+
+.espaco{
+    padding-bottom: 20px;
+    padding-left: 8%;
+}
+
+
+.imghome{
+    width: 100%;
+    height: auto;
+}
+
+#img{
+    position:absolute;
+    display: block;
+    z-index: 999
+    
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    color: #000d1f;
+    text-shadow: #BDBDBD 1px -1px, #BDBDBD -1px 1px, #BDBDBD 1px 1px, #BDBDBD -1px -1px;
+    padding-top: 5%;
+    padding-right: 4%;
+}
+
+.alinhamento{
+    text-align: center;
+}
+
+h5{
+    color:black;
+}
